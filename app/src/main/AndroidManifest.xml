@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.blood.daggerdemo">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".MainApplication"
         android:allowBackup="true"
@@ -10,9 +12,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DaggerDemo">
-<!--        <activity android:name=".activity.Case7Activity"></activity>-->
+        <!--        <activity android:name=".mvp.view.DemoActivity"/>-->
+        <activity android:name=".activity.Case7Activity" />
         <activity android:name=".activity.Case6Activity_1" />
-         <activity android:name=".activity.Case6Activity" />
+        <activity android:name=".activity.Case6Activity" />
         <activity android:name=".activity.Case5Activity_1" />
         <activity android:name=".activity.Case5Activity" />
         <activity android:name=".activity.Case4Activity" />
@@ -20,7 +23,7 @@
         <activity android:name=".activity.Case2Activity" />
         <activity android:name=".activity.Case1Activity" />
         <activity android:name=".activity.MainActivity" />
-        <activity android:name=".activity.Case7Activity">
+        <activity android:name=".mvp.view.DemoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
