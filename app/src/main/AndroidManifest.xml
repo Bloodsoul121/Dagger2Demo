@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DaggerDemo">
-        <!--        <activity android:name=".mvp.view.DemoActivity"/>-->
+         <activity android:name=".mvp.view.DemoActivity"/>
         <activity android:name=".activity.Case7Activity" />
         <activity android:name=".activity.Case6Activity_1" />
         <activity android:name=".activity.Case6Activity" />
@@ -22,8 +22,8 @@
         <activity android:name=".activity.Case3Activity" />
         <activity android:name=".activity.Case2Activity" />
         <activity android:name=".activity.Case1Activity" />
-        <activity android:name=".activity.MainActivity" />
-        <activity android:name=".mvp.view.DemoActivity">
+<!--        <activity android:name=".activity.MainActivity" />-->
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
