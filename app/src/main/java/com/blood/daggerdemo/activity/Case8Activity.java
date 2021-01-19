@@ -15,9 +15,6 @@ import javax.inject.Inject;
 
 public class Case8Activity extends AppCompatActivity {
 
-//    @Inject
-//    public ABean mABean;
-
     @Inject
     public BBean mBBean;
 
